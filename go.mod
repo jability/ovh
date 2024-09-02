@@ -1,4 +1,4 @@
-module github.com/libdns/ovh
+module github.com/jability/ovh
 
 go 1.18
 

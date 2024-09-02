@@ -1,6 +1,6 @@
 # OVH DNS for `libdns`
 
-[![godoc reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/libdns/ovh)
+[![godoc reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/jability/ovh)
 
 
 This package implements the libdns interfaces for the [OVH DNS API](https://docs.ovh.com/gb/en/api/first-steps-with-ovh-api/) using the [OVH API GO SDK](https://github.com/ovh/go-ovh)
@@ -35,7 +35,7 @@ POST /domain/zone/yourdomain.com/refresh
 
 ## Example
 
-Here's a minimal example of how to get all DNS records for zone. See also: [provider_test.go](https://github.com/libdns/ovh/blob/main/provider_test.go)
+Here's a minimal example of how to get all DNS records for zone. See also: [provider_test.go](https://github.com/jability/ovh/blob/main/provider_test.go)
 
 ```go
 package main
@@ -46,7 +46,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/libdns/ovh"
+	"github.com/jability/ovh"
 )
 
 func main() {

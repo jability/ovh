@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libdns/ovh"
+	"github.com/jability/ovh"
 	"github.com/libdns/libdns"
 )
 
